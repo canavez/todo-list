@@ -1,0 +1,46 @@
+.task-container {
+    background-color: #333;
+    border-radius: 0.5em;
+    width: 80%;
+    padding: 0.7em 1em;
+    margin: 0.3em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-completed {
+    background-color: #777;
+    border-radius: 0.5em;
+    width: 80%;
+    padding: 0.7em 1em;
+    margin: 0.3em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-completed .task-title{
+    text-decoration: line-through;
+}
+
+.task-title {
+    padding-right: 1em;
+}
+
+h4 {
+    font-weight: 300;
+    color: white;
+    font-size: 0.8em;
+}
+
+.task-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}

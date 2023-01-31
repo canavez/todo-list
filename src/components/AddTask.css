@@ -1,0 +1,56 @@
+.addtask-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 0.7em 1em;
+    margin: 0.3em 0;
+    background-color: #222;
+    border-radius: 0.5em;
+    border: aqua solid 0.05em;
+}
+
+.input-container {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+input[type=text] {
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.btn-container {
+    display: flex;
+    flex: 1;
+}
+
+button {
+    width: 100%;
+    padding: 0.5em 1em;
+    color: #222;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #222;
+    transition: 0.3s;
+}
